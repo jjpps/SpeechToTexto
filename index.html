@@ -48,26 +48,8 @@
 
       };
 
-      recognition.onerror = function (event) {
-        // if (event.error == 'no-speech') {
-
-        //   console.log('info_no_speech');
-        //   ignore_onend = true;
-        // }
-        // if (event.error == 'audio-capture') {
-
-        //   console.log('info_no_microphone');
-        //   ignore_onend = true;
-        // }
-        // if (event.error == 'not-allowed') {
-        //   if (event.timeStamp - start_timestamp < 100) {
-        //     console.log('info_blocked');
-        //   } else {
-        //     console.log('info_denied');
-        //   }
-        //   ignore_onend = true;
-        // }
-        if (event.error = '') {
+      recognition.onerror = function (event) {        
+        if (event.error != '') {
           console.log(event.error);
         }
       };
@@ -101,13 +83,6 @@
             //final_transcript += event.results[i][0].transcript;
           }
         }
-
-
-        //final_transcript = final_transcript;
-
-        //final_span.innerHTML = final_transcript;
-        //interim_span.innerHTML = interim_transcript;
-
       };
     }
 
