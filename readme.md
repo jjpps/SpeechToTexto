@@ -10,12 +10,15 @@ npm install
 
 npm audit fix 
 ```
-##Bibliotecas utilizadas
+
+## Bibliotecas
 
 https://dvcs.w3.org/hg/speech-api/raw-file/9a0075d25326/speechapi.html
 
 
 https://chatbotslife.com/custom-api-ai-chatbot-using-botui-58d673155c7d
+
+http://expressjs.com/en/4x/api.html
 
 ## Deploy
 
@@ -30,6 +33,5 @@ https://chatbotslife.com/custom-api-ai-chatbot-using-botui-58d673155c7d
 
 
 
-## Express
 
-http://expressjs.com/en/4x/api.html
+
